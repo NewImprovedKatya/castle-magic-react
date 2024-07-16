@@ -1,3 +1,7 @@
+# Welcome to my CastleMagic rebuild case study
+
+The original CastleMagic website, https://castlemagic.com/, is in dire need of an update. I took the opportunity to practice buiding a direct-to-client web project by creating this demo to show the client their website's potential. I built it with React and styled it with Reatstrap when available and Bootstrap and Vanilla CSS when needed.
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
