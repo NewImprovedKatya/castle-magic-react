@@ -14,26 +14,26 @@ import castleFour from "../assets/images/hero-castle-med.jpg";
 const items = [
   {
     src: castleOne,
-    altText: "Slide 1",
-    caption: "Slide 1",
+    altText: "Castle Garage",
+    caption: "For knights with a license",
     key: 1,
   },
   {
     src: castleTwo,
-    altText: "Slide 2",
-    caption: "Slide 2",
+    altText: "Sedro-Woolley Castle",
+    caption: "For dragons that don't mind rain",
     key: 2,
   },
   {
     src: castleThree,
-    altText: "Slide 3",
-    caption: "Slide 3",
+    altText: "Mountain Castle",
+    caption: "For knights who love a view",
     key: 3,
   },
   {
     src: castleFour,
-    altText: "Slide 3",
-    caption: "Slide 3",
+    altText: "Castle Kataryna",
+    caption: "You won't believe how beautiful this place is!",
     key: 4,
   },
 ];
@@ -75,8 +75,8 @@ const ImageCarousel = (args) => {
           />
         </div>
         <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
+          //captionText={item.caption}
+          //captionHeader={item.caption}
         />
       </CarouselItem>
     );

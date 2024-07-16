@@ -1,15 +1,12 @@
 import { useState } from "react";
 import {
   Col,
-  Row,
   Card,
   CardImg,
   CardTitle,
   CardBody,
   CardText,
-  CardImgOverlay,
   CardSubtitle,
-  CardLink,
   Button,
   Modal,
   ModalHeader,
@@ -55,9 +52,6 @@ const FeaturedCard = ({ castle }) => {
           </Col>
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={toggle}>
-            Do Something
-          </Button>{" "}
           <Button color="secondary" onClick={toggle}>
             Close
           </Button>
